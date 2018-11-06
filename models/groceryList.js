@@ -1,14 +1,3 @@
-const pgp = require('pg-promise')();
-
-const db = pgp({
-    host: 'localhost',
-    port: 5432,
-    database: 'grocery-list-db'
-    //not used for our use locally but will be required when deployed
-    // user: 'user-name',
-    // password: 'user-password'
-});
-
 // delete item
 // add item
 // update quantity
